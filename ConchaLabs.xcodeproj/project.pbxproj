@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDED0C5827EA9883000A88FE /* ConchaLabsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C5727EA9883000A88FE /* ConchaLabsApp.swift */; };
+		FDED0C5A27EA9883000A88FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C5927EA9883000A88FE /* ContentView.swift */; };
+		FDED0C5C27EA9884000A88FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDED0C5B27EA9884000A88FE /* Assets.xcassets */; };
+		FDED0C5F27EA9884000A88FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDED0C5E27EA9884000A88FE /* Preview Assets.xcassets */; };
+		FDED0C6927EA9884000A88FE /* ConchaLabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C6827EA9884000A88FE /* ConchaLabsTests.swift */; };
+		FDED0C7327EA9884000A88FE /* ConchaLabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C7227EA9884000A88FE /* ConchaLabsUITests.swift */; };
+		FDED0C7527EA9884000A88FE /* ConchaLabsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C7427EA9884000A88FE /* ConchaLabsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDED0C6527EA9884000A88FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDED0C4C27EA9883000A88FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDED0C5327EA9883000A88FE;
+			remoteInfo = ConchaLabs;
+		};
+		FDED0C6F27EA9884000A88FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDED0C4C27EA9883000A88FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDED0C5327EA9883000A88FE;
+			remoteInfo = ConchaLabs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDED0C5427EA9883000A88FE /* ConchaLabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConchaLabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDED0C5727EA9883000A88FE /* ConchaLabsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConchaLabsApp.swift; sourceTree = "<group>"; };
+		FDED0C5927EA9883000A88FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDED0C5B27EA9884000A88FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDED0C5E27EA9884000A88FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDED0C6427EA9884000A88FE /* ConchaLabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConchaLabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDED0C6827EA9884000A88FE /* ConchaLabsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConchaLabsTests.swift; sourceTree = "<group>"; };
+		FDED0C6E27EA9884000A88FE /* ConchaLabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConchaLabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDED0C7227EA9884000A88FE /* ConchaLabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConchaLabsUITests.swift; sourceTree = "<group>"; };
+		FDED0C7427EA9884000A88FE /* ConchaLabsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConchaLabsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDED0C5127EA9883000A88FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDED0C6127EA9884000A88FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDED0C6B27EA9884000A88FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDED0C4B27EA9883000A88FE = {
+			isa = PBXGroup;
+			children = (
+				FDED0C5627EA9883000A88FE /* ConchaLabs */,
+				FDED0C6727EA9884000A88FE /* ConchaLabsTests */,
+				FDED0C7127EA9884000A88FE /* ConchaLabsUITests */,
+				FDED0C5527EA9883000A88FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDED0C5527EA9883000A88FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDED0C5427EA9883000A88FE /* ConchaLabs.app */,
+				FDED0C6427EA9884000A88FE /* ConchaLabsTests.xctest */,
+				FDED0C6E27EA9884000A88FE /* ConchaLabsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDED0C5627EA9883000A88FE /* ConchaLabs */ = {
+			isa = PBXGroup;
+			children = (
+				FDED0C5727EA9883000A88FE /* ConchaLabsApp.swift */,
+				FDED0C5927EA9883000A88FE /* ContentView.swift */,
+				FDED0C5B27EA9884000A88FE /* Assets.xcassets */,
+				FDED0C5D27EA9884000A88FE /* Preview Content */,
+			);
+			path = ConchaLabs;
+			sourceTree = "<group>";
+		};
+		FDED0C5D27EA9884000A88FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDED0C5E27EA9884000A88FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDED0C6727EA9884000A88FE /* ConchaLabsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDED0C6827EA9884000A88FE /* ConchaLabsTests.swift */,
+			);
+			path = ConchaLabsTests;
+			sourceTree = "<group>";
+		};
+		FDED0C7127EA9884000A88FE /* ConchaLabsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDED0C7227EA9884000A88FE /* ConchaLabsUITests.swift */,
+				FDED0C7427EA9884000A88FE /* ConchaLabsUITestsLaunchTests.swift */,
+			);
+			path = ConchaLabsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDED0C5327EA9883000A88FE /* ConchaLabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDED0C7827EA9884000A88FE /* Build configuration list for PBXNativeTarget "ConchaLabs" */;
+			buildPhases = (
+				FDED0C5027EA9883000A88FE /* Sources */,
+				FDED0C5127EA9883000A88FE /* Frameworks */,
+				FDED0C5227EA9883000A88FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConchaLabs;
+			productName = ConchaLabs;
+			productReference = FDED0C5427EA9883000A88FE /* ConchaLabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDED0C6327EA9884000A88FE /* ConchaLabsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDED0C7B27EA9884000A88FE /* Build configuration list for PBXNativeTarget "ConchaLabsTests" */;
+			buildPhases = (
+				FDED0C6027EA9884000A88FE /* Sources */,
+				FDED0C6127EA9884000A88FE /* Frameworks */,
+				FDED0C6227EA9884000A88FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDED0C6627EA9884000A88FE /* PBXTargetDependency */,
+			);
+			name = ConchaLabsTests;
+			productName = ConchaLabsTests;
+			productReference = FDED0C6427EA9884000A88FE /* ConchaLabsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDED0C6D27EA9884000A88FE /* ConchaLabsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDED0C7E27EA9884000A88FE /* Build configuration list for PBXNativeTarget "ConchaLabsUITests" */;
+			buildPhases = (
+				FDED0C6A27EA9884000A88FE /* Sources */,
+				FDED0C6B27EA9884000A88FE /* Frameworks */,
+				FDED0C6C27EA9884000A88FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDED0C7027EA9884000A88FE /* PBXTargetDependency */,
+			);
+			name = ConchaLabsUITests;
+			productName = ConchaLabsUITests;
+			productReference = FDED0C6E27EA9884000A88FE /* ConchaLabsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDED0C4C27EA9883000A88FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FDED0C5327EA9883000A88FE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					FDED0C6327EA9884000A88FE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FDED0C5327EA9883000A88FE;
+					};
+					FDED0C6D27EA9884000A88FE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FDED0C5327EA9883000A88FE;
+					};
+				};
+			};
+			buildConfigurationList = FDED0C4F27EA9883000A88FE /* Build configuration list for PBXProject "ConchaLabs" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDED0C4B27EA9883000A88FE;
+			productRefGroup = FDED0C5527EA9883000A88FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDED0C5327EA9883000A88FE /* ConchaLabs */,
+				FDED0C6327EA9884000A88FE /* ConchaLabsTests */,
+				FDED0C6D27EA9884000A88FE /* ConchaLabsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDED0C5227EA9883000A88FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDED0C5F27EA9884000A88FE /* Preview Assets.xcassets in Resources */,
+				FDED0C5C27EA9884000A88FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDED0C6227EA9884000A88FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDED0C6C27EA9884000A88FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDED0C5027EA9883000A88FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDED0C5A27EA9883000A88FE /* ContentView.swift in Sources */,
+				FDED0C5827EA9883000A88FE /* ConchaLabsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDED0C6027EA9884000A88FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDED0C6927EA9884000A88FE /* ConchaLabsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDED0C6A27EA9884000A88FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDED0C7527EA9884000A88FE /* ConchaLabsUITestsLaunchTests.swift in Sources */,
+				FDED0C7327EA9884000A88FE /* ConchaLabsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDED0C6627EA9884000A88FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDED0C5327EA9883000A88FE /* ConchaLabs */;
+			targetProxy = FDED0C6527EA9884000A88FE /* PBXContainerItemProxy */;
+		};
+		FDED0C7027EA9884000A88FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDED0C5327EA9883000A88FE /* ConchaLabs */;
+			targetProxy = FDED0C6F27EA9884000A88FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDED0C7627EA9884000A88FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDED0C7727EA9884000A88FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDED0C7927EA9884000A88FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ConchaLabs/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BTL57MS6F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexdiaz.ConchaLabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDED0C7A27EA9884000A88FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ConchaLabs/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BTL57MS6F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexdiaz.ConchaLabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDED0C7C27EA9884000A88FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BTL57MS6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexdiaz.ConchaLabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConchaLabs.app/ConchaLabs";
+			};
+			name = Debug;
+		};
+		FDED0C7D27EA9884000A88FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BTL57MS6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexdiaz.ConchaLabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConchaLabs.app/ConchaLabs";
+			};
+			name = Release;
+		};
+		FDED0C7F27EA9884000A88FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BTL57MS6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexdiaz.ConchaLabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConchaLabs;
+			};
+			name = Debug;
+		};
+		FDED0C8027EA9884000A88FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BTL57MS6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexdiaz.ConchaLabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConchaLabs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDED0C4F27EA9883000A88FE /* Build configuration list for PBXProject "ConchaLabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDED0C7627EA9884000A88FE /* Debug */,
+				FDED0C7727EA9884000A88FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDED0C7827EA9884000A88FE /* Build configuration list for PBXNativeTarget "ConchaLabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDED0C7927EA9884000A88FE /* Debug */,
+				FDED0C7A27EA9884000A88FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDED0C7B27EA9884000A88FE /* Build configuration list for PBXNativeTarget "ConchaLabsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDED0C7C27EA9884000A88FE /* Debug */,
+				FDED0C7D27EA9884000A88FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDED0C7E27EA9884000A88FE /* Build configuration list for PBXNativeTarget "ConchaLabsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDED0C7F27EA9884000A88FE /* Debug */,
+				FDED0C8027EA9884000A88FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDED0C4C27EA9883000A88FE /* Project object */;
+}
