@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FDE4CFC027F18DA8006F9D03 /* SliderResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE4CFBF27F18DA8006F9D03 /* SliderResultsView.swift */; };
+		FDE4CFC227F19A79006F9D03 /* StartOverButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE4CFC127F19A79006F9D03 /* StartOverButton.swift */; };
 		FDED0C5827EA9883000A88FE /* ConchaLabsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C5727EA9883000A88FE /* ConchaLabsApp.swift */; };
 		FDED0C5A27EA9883000A88FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C5927EA9883000A88FE /* ContentView.swift */; };
 		FDED0C5C27EA9884000A88FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDED0C5B27EA9884000A88FE /* Assets.xcassets */; };
@@ -14,6 +16,17 @@
 		FDED0C6927EA9884000A88FE /* ConchaLabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C6827EA9884000A88FE /* ConchaLabsTests.swift */; };
 		FDED0C7327EA9884000A88FE /* ConchaLabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C7227EA9884000A88FE /* ConchaLabsUITests.swift */; };
 		FDED0C7527EA9884000A88FE /* ConchaLabsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C7427EA9884000A88FE /* ConchaLabsUITestsLaunchTests.swift */; };
+		FDED0C8227EAA36A000A88FE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C8127EAA36A000A88FE /* Model.swift */; };
+		FDED0C8627EAA5D4000A88FE /* Viewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C8527EAA5D4000A88FE /* Viewmodel.swift */; };
+		FDED0C8A27EBCE32000A88FE /* ModelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C8927EBCE32000A88FE /* ModelExtensions.swift */; };
+		FDED0C8D27EBCECE000A88FE /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C8C27EBCECE000A88FE /* Network.swift */; };
+		FDED0C9127EC2DE2000A88FE /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C9027EC2DE2000A88FE /* NetworkError.swift */; };
+		FDED0C9327ECCADD000A88FE /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C9227ECCADC000A88FE /* APIService.swift */; };
+		FDED0C9827ECD2DA000A88FE /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C9727ECD2DA000A88FE /* Session.swift */; };
+		FDED0C9C27EE5E8E000A88FE /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C9B27EE5E8E000A88FE /* SliderView.swift */; };
+		FDED0C9E27EE5EB7000A88FE /* SideButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C9D27EE5EB7000A88FE /* SideButtonView.swift */; };
+		FDED0CA027EE5ECC000A88FE /* BottomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C9F27EE5ECC000A88FE /* BottomButtonView.swift */; };
+		FDED0CA227EE5EDB000A88FE /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0CA127EE5EDB000A88FE /* TitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FDE4CFBF27F18DA8006F9D03 /* SliderResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderResultsView.swift; sourceTree = "<group>"; };
+		FDE4CFC127F19A79006F9D03 /* StartOverButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartOverButton.swift; sourceTree = "<group>"; };
 		FDED0C5427EA9883000A88FE /* ConchaLabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConchaLabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDED0C5727EA9883000A88FE /* ConchaLabsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConchaLabsApp.swift; sourceTree = "<group>"; };
 		FDED0C5927EA9883000A88FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +59,17 @@
 		FDED0C6E27EA9884000A88FE /* ConchaLabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConchaLabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDED0C7227EA9884000A88FE /* ConchaLabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConchaLabsUITests.swift; sourceTree = "<group>"; };
 		FDED0C7427EA9884000A88FE /* ConchaLabsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConchaLabsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDED0C8127EAA36A000A88FE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FDED0C8527EAA5D4000A88FE /* Viewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viewmodel.swift; sourceTree = "<group>"; };
+		FDED0C8927EBCE32000A88FE /* ModelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelExtensions.swift; sourceTree = "<group>"; };
+		FDED0C8C27EBCECE000A88FE /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		FDED0C9027EC2DE2000A88FE /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		FDED0C9227ECCADC000A88FE /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		FDED0C9727ECD2DA000A88FE /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		FDED0C9B27EE5E8E000A88FE /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		FDED0C9D27EE5EB7000A88FE /* SideButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideButtonView.swift; sourceTree = "<group>"; };
+		FDED0C9F27EE5ECC000A88FE /* BottomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButtonView.swift; sourceTree = "<group>"; };
+		FDED0CA127EE5EDB000A88FE /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +97,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FDAE1B1F27EFC42C00930E1D /* ContentViews */ = {
+			isa = PBXGroup;
+			children = (
+				FDED0CA127EE5EDB000A88FE /* TitleView.swift */,
+				FDED0C9B27EE5E8E000A88FE /* SliderView.swift */,
+				FDED0C9D27EE5EB7000A88FE /* SideButtonView.swift */,
+				FDED0C9F27EE5ECC000A88FE /* BottomButtonView.swift */,
+			);
+			path = ContentViews;
+			sourceTree = "<group>";
+		};
+		FDE4CFC327F19AE1006F9D03 /* SliderResultsViews */ = {
+			isa = PBXGroup;
+			children = (
+				FDE4CFBF27F18DA8006F9D03 /* SliderResultsView.swift */,
+				FDE4CFC127F19A79006F9D03 /* StartOverButton.swift */,
+			);
+			path = SliderResultsViews;
+			sourceTree = "<group>";
+		};
+		FDE4CFC427F25293006F9D03 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				FDED0C7127EA9884000A88FE /* ConchaLabsUITests */,
+				FDED0C6727EA9884000A88FE /* ConchaLabsTests */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		FDE4CFC527F252C0006F9D03 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				FDED0C5B27EA9884000A88FE /* Assets.xcassets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		FDED0C4B27EA9883000A88FE = {
 			isa = PBXGroup;
 			children = (
 				FDED0C5627EA9883000A88FE /* ConchaLabs */,
-				FDED0C6727EA9884000A88FE /* ConchaLabsTests */,
-				FDED0C7127EA9884000A88FE /* ConchaLabsUITests */,
+				FDE4CFC427F25293006F9D03 /* Test */,
 				FDED0C5527EA9883000A88FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,9 +157,13 @@
 			isa = PBXGroup;
 			children = (
 				FDED0C5727EA9883000A88FE /* ConchaLabsApp.swift */,
-				FDED0C5927EA9883000A88FE /* ContentView.swift */,
-				FDED0C5B27EA9884000A88FE /* Assets.xcassets */,
+				FDED0C9927EE5E20000A88FE /* Views */,
+				FDED0C9A27EE5E68000A88FE /* Viewmodel */,
+				FDED0C8B27EBCE42000A88FE /* Model */,
+				FDED0C9427ECCD3A000A88FE /* Service */,
+				FDED0C9627ECCD67000A88FE /* ErrorHandling */,
 				FDED0C5D27EA9884000A88FE /* Preview Content */,
+				FDE4CFC527F252C0006F9D03 /* Support */,
 			);
 			path = ConchaLabs;
 			sourceTree = "<group>";
@@ -125,6 +191,51 @@
 				FDED0C7427EA9884000A88FE /* ConchaLabsUITestsLaunchTests.swift */,
 			);
 			path = ConchaLabsUITests;
+			sourceTree = "<group>";
+		};
+		FDED0C8B27EBCE42000A88FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDED0C8127EAA36A000A88FE /* Model.swift */,
+				FDED0C8927EBCE32000A88FE /* ModelExtensions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FDED0C9427ECCD3A000A88FE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FDED0C9227ECCADC000A88FE /* APIService.swift */,
+				FDED0C9727ECD2DA000A88FE /* Session.swift */,
+				FDED0C8C27EBCECE000A88FE /* Network.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FDED0C9627ECCD67000A88FE /* ErrorHandling */ = {
+			isa = PBXGroup;
+			children = (
+				FDED0C9027EC2DE2000A88FE /* NetworkError.swift */,
+			);
+			path = ErrorHandling;
+			sourceTree = "<group>";
+		};
+		FDED0C9927EE5E20000A88FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDED0C5927EA9883000A88FE /* ContentView.swift */,
+				FDAE1B1F27EFC42C00930E1D /* ContentViews */,
+				FDE4CFC327F19AE1006F9D03 /* SliderResultsViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDED0C9A27EE5E68000A88FE /* Viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				FDED0C8527EAA5D4000A88FE /* Viewmodel.swift */,
+			);
+			path = Viewmodel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +368,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDED0C9827ECD2DA000A88FE /* Session.swift in Sources */,
+				FDED0C8227EAA36A000A88FE /* Model.swift in Sources */,
+				FDE4CFC027F18DA8006F9D03 /* SliderResultsView.swift in Sources */,
+				FDED0C8D27EBCECE000A88FE /* Network.swift in Sources */,
 				FDED0C5A27EA9883000A88FE /* ContentView.swift in Sources */,
+				FDED0C8A27EBCE32000A88FE /* ModelExtensions.swift in Sources */,
+				FDED0C9127EC2DE2000A88FE /* NetworkError.swift in Sources */,
 				FDED0C5827EA9883000A88FE /* ConchaLabsApp.swift in Sources */,
+				FDED0C9327ECCADD000A88FE /* APIService.swift in Sources */,
+				FDED0C8627EAA5D4000A88FE /* Viewmodel.swift in Sources */,
+				FDED0CA027EE5ECC000A88FE /* BottomButtonView.swift in Sources */,
+				FDE4CFC227F19A79006F9D03 /* StartOverButton.swift in Sources */,
+				FDED0C9E27EE5EB7000A88FE /* SideButtonView.swift in Sources */,
+				FDED0CA227EE5EDB000A88FE /* TitleView.swift in Sources */,
+				FDED0C9C27EE5E8E000A88FE /* SliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +557,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = alexdiaz.ConchaLabs;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ConchaLabs;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,7 +586,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = alexdiaz.ConchaLabs;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ConchaLabs;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
